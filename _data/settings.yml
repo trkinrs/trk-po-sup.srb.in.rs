@@ -1,0 +1,16 @@
+---
+title: Trk po SUP
+description: Rekreacija, Takmicenje, u stvari, samo boravak na vodi iz bilo kog razloga
+header_pages:
+- path: about.md
+- path: najave.md
+- title: Kontakt
+  path: contact.md
+_schema:
+  description: text_area
+  header_pages:
+  - title:
+    path: document-select_all
+  formspree_form_endpoint:
+  - type: text_field
+    help: https://formspree.io/f/asdqwe123

@@ -1,18 +1,19 @@
 ---
-title: Trk po SUP
+# Site settings
 email: your_email@example.com
-author: John Otander
-description: Rekreacija, Takmicenje, u stvari, samo boravak na vodi iz bilo kog razloga
+author: John Otanderd
 baseurl: ''
 url: https://pixyll.com
 date_format: "%b %-d, %Y"
-header_pages:
-- about.md
-- contact.html
+# Google services
 google_verification: ''
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
 google_analytics: ''
 google_tag_manager: ''
+# Bing services
 bing_verification: ''
+# Optional features
 animated: false
 show_related_posts: false
 show_post_footers: false
@@ -21,12 +22,19 @@ ajaxify_contact_form: false
 enable_mathjax: false
 extended_fonts: false
 enable_anchorjs: false
+# Facebook Page integration
+# (for instant articles and other stuff)
 fb_page: false
 fb_page_id: ''
+# Disqus post comments
+# (leave blank to disable Disqus)
 disqus_shortname: ''
-facebook_comments: ''
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments: false
 facebook_appid: ''
 facebook_comments_number: '10'
+# Social icons
 github_username: ''
 reddit_username: ''
 bitbucket_username: ''
@@ -43,7 +51,9 @@ paypal_url: ''
 flattr_button: ''
 telegram_username: ''
 vk_id: ''
+# Post sharing icons
 show_sharing_icons: false
+# Change to 'true' to enable individual icons
 share_facebook: false
 share_twitter: false
 share_googleplus: false
@@ -85,7 +95,10 @@ text:
       error: Error!
   thanks: Thanks for contacting us. We will reply as soon as possible.
   og_locale: en_US
+# Build settings
 markdown: kramdown
+# redcarpet:
+#   extensions: ['smart', 'tables', 'with_toc_data']
 permalink: pretty
 paginate: '4'
 sass:
@@ -93,6 +106,7 @@ sass:
 plugins:
 - jekyll-paginate
 - jekyll-sitemap
+# https://github.com/jekyll/jekyll/issues/2938
 exclude:
 - Gemfile
 - Gemfile.lock
@@ -100,7 +114,3 @@ exclude:
 - README.md
 - screenshot.png
 - vendor
-_schema:
-  description: text_area
-  header_pages:
-  - text_field

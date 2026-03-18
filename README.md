@@ -98,7 +98,7 @@ You will also need to tweak the header include `/{{ site.baseurl }}`:
 <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
-      <a href="{{ "/" | relative_url }}" class="site-title">{{ site.title }}</a>
+      <a href="{{ "/" | relative_url }}" class="site-title">{{ site.data.settings.title }}</a>
       <nav class="site-nav">
         {% include navigation.html %}
       </nav>
