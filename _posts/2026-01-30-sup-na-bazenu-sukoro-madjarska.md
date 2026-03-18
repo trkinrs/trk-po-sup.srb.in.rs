@@ -98,7 +98,7 @@ Za nagradu je dobio i SUP dasku
 
 | Dva najbrza Filipa                                                          | Nagrada SUP daska                                                                        |
 | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| ![IMG20260131172419]({{ site.baseurl }}assets/images/IMG20260131172419.jpg) | ![filip nagrada sup daska]({{ site.baseurl }}/assets/images/filip nagrada sup daska.jpg) |
+| ![IMG20260131172419]({{ site.baseurl }}/assets/images/IMG20260131172419.jpg) | ![filip nagrada sup daska]({{ site.baseurl }}/assets/images/filip nagrada sup daska.jpg) |
 
 Sve u svemu super iskustvo jel sam video kako startuju najbrzi i kako veslaju najstariji (tako da nema izgovora)
 
