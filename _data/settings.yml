@@ -6,6 +6,8 @@ header_pages:
 - path: najave.md
 - title: Kontakt
   path: contact.md
+- title: Bezbednost
+  path: bezbednosna-oprema.md
 _schema:
   description: text_area
   header_pages:
