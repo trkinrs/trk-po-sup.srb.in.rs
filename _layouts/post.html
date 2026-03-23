@@ -28,6 +28,16 @@ _schema:
   </span>
 </div>
 
+{% if page.image %}
+  {% assign post_image_src = page.image %}
+  {% unless post_image_src contains '://' %}
+    {% assign post_image_src = post_image_src | relative_url %}
+  {% endunless %}
+  <figure class="post-hero">
+    <img src="{{ post_image_src }}" alt="{{ page.title | escape }}" loading="lazy">
+  </figure>
+{% endif %}
+
 <article class="post-content">
   {{ content }}
 </article>
