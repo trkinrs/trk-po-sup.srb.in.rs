@@ -12,5 +12,6 @@ Ne treba cekati da se stvore posebni uslovi, niti da se naprave klubovi koji ce 
 
 Uz mere  [bezbednosti]({{ site.baseurl }}//bezbednosna-oprema/) svi mogu da uzivaju.
 
-<video controls="" src="{{ site.baseurl }}assets/videos/mila majko salji me na vodu sa tekstom - SD 480p.mov"></video>
+<video controls="" src="{{ site.baseurl }}/assets/videos/mila majko salji me na vodu sa tekstom - SD 480p.mov"></video>
+
 

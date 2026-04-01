@@ -1,0 +1,13 @@
+# Categories used to generate /categories/<slug>/ pages.
+#
+# Supported formats:
+# - string entries: "jekyll"
+# - object entries: { name: jekyll, title: Jekyll, slug: jekyll }
+
+- name: jekyll
+  title: Jekyll
+  slug: jekyll
+
+- name: pixyll
+  title: Pixyll
+  slug: pixyll
