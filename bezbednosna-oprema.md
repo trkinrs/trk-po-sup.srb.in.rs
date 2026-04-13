@@ -16,4 +16,5 @@ Pravila:
 * tok velike reke se prelazi samo u prisustvu odrasle osobe koja poznaje pravila u recnom saobracaju
 * u slucaju vetra, talasa i drugih nepogoda, sesti ili kleknuti na dasku zbog vece stabilnosti
 * ne veslati ukoliko je ispod nule, tj pojavljuje se led na camcu i onemogucava bezbedno stajanje
+* prilikom pada sa daske obavezno ispustiti veslo posto moze da se polomi kada se udari u dasku
 
