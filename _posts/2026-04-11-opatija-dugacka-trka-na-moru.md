@@ -27,7 +27,7 @@ U Opatiji se bas lepo, a najvise me je obradovao njihov festival pesacenja  [htt
 
 Uglavnom bake i deke mogu da se zagreju uz lep fitnes trening, prepesace par kilometara uz more ili uzbrdo i dobiju rucak. U sklopu je bila i promocija strelicarstva i [cornhole](https://en.wikipedia.org/wiki/Cornhole) (bacanje vrecica na dasku, 1 poen ako ostane na dasci, 3 poena ako upadne u rupu).
 
-<video controls="" src="{{ site.baseurl }}assets/videos/zagrevanje pred planinarenje u opatiji.mp4"></video>
+<video controls="" src="{{ site.baseurl }}/assets/videos/zagrevanje pred planinarenje u opatiji.mp4"></video>
 
 Voleo bih kada bi i kod nas bilo tako nesto.
 
