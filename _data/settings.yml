@@ -6,8 +6,8 @@ description: 'Rekreacija, Takmicenje, u stvari, samo boravak na vodi iz bilo kog
 header_pages:
 - path: about.md
 - path: najave.md
-- title: Kontakt
-  path: contact.md
+- title: Trening
+  path: trening.md
 - title: Bezbednost
   path: bezbednosna-oprema.md
 _schema:
