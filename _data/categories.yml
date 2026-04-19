@@ -1,13 +1,16 @@
 # Categories used to generate /categories/<slug>/ pages.
 #
-# Supported formats:
-# - string entries: "jekyll"
-# - object entries: { name: jekyll, title: Jekyll, slug: jekyll }
+# Format:
+# posts:
+#   - slug: jekyll
+#     title: Jekyll
 
-- name: jekyll
-  title: Jekyll
-  slug: jekyll
-
-- name: pixyll
-  title: Pixyll
-  slug: pixyll
+posts:
+  - slug: jekyll
+    title: Jekyll
+  - slug: pixyll
+    title: Pixyll
+_schema:
+  posts:
+    - slug:
+      title:

@@ -34,17 +34,27 @@ module Jekyll
       data = site.data["categories"]
       from_data = []
 
-      if data.is_a?(Array)
-        data.each do |entry|
+      if data.is_a?(Hash) && data["posts"].is_a?(Array)
+        data["posts"].each do |entry|
           if entry.is_a?(String)
-            from_data << {name: entry, title: entry, slug: Utils.slugify(entry)}
+            slug = entry.to_s
+            next if slug.strip.empty?
+            from_data << {name: slug, title: slug, slug: slug}
           elsif entry.is_a?(Hash)
-            name = entry["name"] || entry[:name]
-            next if name.nil? || name.to_s.strip.empty?
-
-            title = entry["title"] || entry[:title] || name
-            slug = entry["slug"] || entry[:slug] || Utils.slugify(name.to_s)
-            from_data << {name: name.to_s, title: title.to_s, slug: slug.to_s}
+            # Support either:
+            # - {"slug" => "jekyll", "title" => "Jekyll"}
+            # - {"jekyll" => "Jekyll"}
+            if entry.key?("slug") || entry.key?(:slug)
+              slug = (entry["slug"] || entry[:slug]).to_s
+              next if slug.strip.empty?
+              title = (entry["title"] || entry[:title] || slug).to_s
+              from_data << {name: slug, title: title, slug: slug}
+            elsif entry.size == 1
+              slug = entry.keys.first.to_s
+              next if slug.strip.empty?
+              title = (entry.values.first || slug).to_s
+              from_data << {name: slug, title: title, slug: slug}
+            end
           end
         end
       end

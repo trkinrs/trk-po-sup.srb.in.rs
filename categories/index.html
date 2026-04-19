@@ -6,19 +6,16 @@ permalink: /categories/
 
 <div class="category-index">
   {% assign data_categories = site.data.categories %}
-  {% if data_categories and data_categories.size > 0 %}
-    {% for entry in data_categories %}
-      {% if entry.name %}
-        {% assign category_name = entry.name %}
-        {% assign category_title = entry.title | default: entry.name %}
-        {% assign category_slug = entry.slug | default: category_name | slugify %}
+  {% if data_categories and data_categories.posts and data_categories.posts.size > 0 %}
+    {% for entry in data_categories.posts %}
+      {% if entry.slug %}
+        {% assign category_slug = entry.slug %}
+        {% assign category_title = entry.title | default: entry.slug %}
       {% else %}
-        {% assign category_name = entry %}
-        {% assign category_title = entry %}
-        {% assign category_slug = entry | slugify %}
+        {% assign category_slug = entry[0] %}
+        {% assign category_title = entry[1] | default: entry[0] %}
       {% endif %}
-
-      {% assign category_posts = site.categories[category_name] %}
+      {% assign category_posts = site.categories[category_slug] %}
       <section class="category-group">
         <h2 class="h3 category-title">
           <a href="{{ '/categories/' | append: category_slug | append: '/' | relative_url }}">{{ category_title }}</a>

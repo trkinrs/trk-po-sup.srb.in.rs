@@ -5,7 +5,7 @@ _schema:
   title: text_field
   image: image_field
   summary: text_area
-  categories: text_field
+  categories: data_multiselect-categories.posts.slug
 ---
 
 {% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
