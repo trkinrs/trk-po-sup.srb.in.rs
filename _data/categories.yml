@@ -1,3 +1,4 @@
+---
 # Categories used to generate /categories/<slug>/ pages.
 #
 # Format:
@@ -6,11 +7,15 @@
 #     title: Jekyll
 
 posts:
-  - slug: jekyll
-    title: Jekyll
-  - slug: pixyll
-    title: Pixyll
+- slug: razmisljanja
+  title: Razmisljanja
+- slug: trening
+  title: Trening
+- slug: izvestaj
+  title: Izvestaj
+- slug: ''
+  title: ''
 _schema:
   posts:
-    - slug:
-      title:
+  - slug:
+    title:

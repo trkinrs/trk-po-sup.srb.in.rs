@@ -3,7 +3,8 @@ layout: post
 title: SUP na bazenu Sukoro Madjarska
 image: assets/images/filip hoda po vodi.jpg
 summary: SUP na bazenu
-categories: rezultati-takmicenja
+categories:
+- izvestaj
 ---
 Kredit za fotografiju ide Kovács Tamás
 
@@ -185,4 +186,5 @@ Kajak kanu akademija [Katalin Kovac](https://letesitmeny.kkna.hu/) je ogromni ko
 I za kraj jedna fotka sa mojom vrsnjakinjom
 
 ![dule i natasa janjic]({{ site.baseurl }}/assets/images/dule i natasa janjic.jpg)
+
 
