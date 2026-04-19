@@ -13,8 +13,6 @@ posts:
   title: Trening
 - slug: izvestaj
   title: Izvestaj
-- slug: ''
-  title: ''
 _schema:
   posts:
   - slug:

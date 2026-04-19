@@ -4,7 +4,8 @@ title: Opatija dugacka trka na moru
 image: assets/images/filip opatija.jpg
 summary: Prelepo veslanje na moru, u jednom danu otisli na trku, rucali i vratili
   se do 9pm
-categories: ''
+categories:
+- izvestaj
 ---
 ```
 Kazu da su cuda sveta, piramide africke
@@ -40,4 +41,7 @@ Zuro sam nazad u Srbiju, treba oko 6 sati (bas kako kaze Google mapa) i nije bil
 Naucio sam da najpovoljnija oprema moze da se nadje kod Italijana.
 
 ![0-02-05-388ac9311ceeecc672eecb58d1cdccaa85d3c0153e536a4570d978282c8648bf_220819aa94d]({{ site.baseurl }}/assets/images/0-02-05-388ac9311ceeecc672eecb58d1cdccaa85d3c0153e536a4570d978282c8648bf_220819aa94d.jpg)
+
+
+
 
