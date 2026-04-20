@@ -8,11 +8,13 @@ Ponedeljak: zagrevanje kick box, sa rukavicama u parovima: minut direkti, minut 
 
 Utorak: Bazen
 
-Sreda: Lagano trcanje 1km, sklek 1min i karike 1min (izdrzaj ako ne moze da se radi ceo minut), trcanje pa trbusnjaci ledja, trcanje pa zgib ramena
+Sreda:  [Trening na karikama]({{ site.baseurl }}//2026/04/19/trening-na-karikama/) 
 
 Cetvrtak: Bazen
 
-Petak: Kick box zagrevanje, pipkanje 3minuta, kombinacije, vezbe snage trbusnjaci
+Petak: Kick box zagrevanje, pipkanje 3minuta, kombinacije, vezbe snage: privlacenje, sklekovi, trbusnjaci, ledja, zgib, ramena,
 
 Subota: Fruska gora
+
+Pogledajte ostale [trening postove](https://trk-po-sup.srb.in.rs/categories/trening/)
 
