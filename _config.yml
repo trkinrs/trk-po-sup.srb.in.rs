@@ -106,6 +106,10 @@ sass:
 plugins:
 - jekyll-paginate
 - jekyll-sitemap
+collections:
+  ads:
+    output: true
+    permalink: /oglasi/:name/
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
 - Gemfile

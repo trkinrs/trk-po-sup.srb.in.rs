@@ -1,0 +1,94 @@
+---
+layout: default
+_schema:
+  layout:
+    type: static_field
+    label: Raspored
+  title:
+    type: text_field
+    label: Naslov
+  kind:
+    type: data_select_categories.ads.kind
+    label: Vrsta oglasa
+  type:
+    type: data_select_categories.ads.type
+    label: Tip opreme
+  image:
+    type: image_field
+    label: Glavna slika
+  price:
+    type: text_field
+    label: Cena
+  location:
+    type: text_field
+    label: Lokacija
+  condition:
+    type: text_field
+    label: Stanje
+  contact:
+    type: text_field
+    label: Kontakt
+  sold:
+    type: check_box
+    label: Prodato
+  summary:
+    type: text_area
+    label: Kratak opis
+  images:
+  - type: image_field
+    label: Slike
+---
+<div class="post">
+  <header class="post-header mb2">
+    <h1>{{ page.title }}</h1>
+    <span class="post-meta">{{ page.date | date: site.date_format }}</span>
+    {% if page.sold %}
+      <span class="post-meta" style="color:#c0392b; font-weight:bold;"> &mdash; PRODATO</span>
+    {% endif %}
+  </header>
+
+  {% if page.image %}
+    {% assign ad_image_src = page.image %}
+    {% unless ad_image_src contains '://' %}
+      {% assign ad_image_src = ad_image_src | relative_url %}
+    {% endunless %}
+    <figure class="post-hero">
+      <img src="{{ ad_image_src }}" alt="{{ page.title | escape }}" loading="lazy">
+    </figure>
+  {% endif %}
+
+  <div class="post-content">
+    <table style="margin-bottom:1.5rem; border-collapse:collapse; width:100%;">
+      {% if page.price %}
+      <tr>
+        <td style="padding:6px 12px 6px 0; font-weight:bold; white-space:nowrap;">💰 Cena</td>
+        <td style="padding:6px 0;">{{ page.price }}</td>
+      </tr>
+      {% endif %}
+      {% if page.condition %}
+      <tr>
+        <td style="padding:6px 12px 6px 0; font-weight:bold; white-space:nowrap;">🔧 Stanje</td>
+        <td style="padding:6px 0;">{{ page.condition }}</td>
+      </tr>
+      {% endif %}
+      {% if page.location %}
+      <tr>
+        <td style="padding:6px 12px 6px 0; font-weight:bold; white-space:nowrap;">📍 Lokacija</td>
+        <td style="padding:6px 0;">{{ page.location }}</td>
+      </tr>
+      {% endif %}
+      {% if page.contact %}
+      <tr>
+        <td style="padding:6px 12px 6px 0; font-weight:bold; white-space:nowrap;">📞 Kontakt</td>
+        <td style="padding:6px 0;">{{ page.contact }}</td>
+      </tr>
+      {% endif %}
+    </table>
+
+    {{ content }}
+  </div>
+
+  <p style="margin-top:2rem;">
+    &larr; <a href="{{ '/oglasi/' | relative_url }}">Nazad na sve oglase</a>
+  </p>
+</div>

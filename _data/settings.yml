@@ -10,6 +10,8 @@ header_pages:
   path: trening.md
 - title: Bezbednost
   path: bezbednosna-oprema.md
+- title: Oglasi
+  path: oglasi.md
 _schema:
   description: text_area
   header_pages:
