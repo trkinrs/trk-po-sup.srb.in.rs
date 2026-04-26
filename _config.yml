@@ -3,7 +3,7 @@
 email: sitesup@trk.in.rs
 author: Dusan Orlovic
 baseurl: ''
-url: https://trk-po-sup.srb.in.rs/
+url: https://trk-po-sup.srb.in.rs
 date_format: "%b %-d, %Y"
 # Google services
 google_verification: ''
@@ -99,7 +99,7 @@ text:
 markdown: kramdown
 # redcarpet:
 #   extensions: ['smart', 'tables', 'with_toc_data']
-permalink: /:year/:month/:day/:title/
+permalink: "/:year/:month/:day/:title/"
 paginate: '4'
 sass:
   style: compressed
@@ -108,8 +108,8 @@ plugins:
 - jekyll-sitemap
 collections:
   ads:
-    output: true
-    permalink: /oglasi/:name/
+    output: 'true'
+    permalink: "/oglasi/:name/"
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
 - Gemfile
