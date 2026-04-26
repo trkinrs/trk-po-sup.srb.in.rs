@@ -1,9 +1,9 @@
 ---
 # Site settings
-email: your_email@example.com
-author: John Otanderd
+email: sitesup@trk.in.rs
+author: Dusan Orlovic
 baseurl: ''
-url: https://pixyll.com
+url: https://trk-po-sup.srb.in.rs/
 date_format: "%b %-d, %Y"
 # Google services
 google_verification: ''
