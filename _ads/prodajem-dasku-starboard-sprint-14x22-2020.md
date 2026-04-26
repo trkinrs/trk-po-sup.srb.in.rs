@@ -10,9 +10,9 @@ sold: false
 summary: |-
   Prodajem Starboard dasku sa futrolom.
 
-  Vrlo stabilna daska, veoma ocuvana, prostor za stajanje kao nov
+  Vrlo stabilna daska, veoma ocuvana, prostor za stajanje kao nov.
 
-  Moze da se isproba na treningu (1000din)
+  Moze da se isproba na treningu (1.000din)
 images:
 - assets/images/sprint starboard 14x22 2020 back close.jpg
 - assets/images/sprint starboard 14x22 2020 back zoom.jpg
@@ -26,4 +26,6 @@ Prodajem Starboard dasku sa futrolom.
 Vrlo stabilna daska, veoma ocuvana, prostor za stajanje kao nov.
 
 Moze da se isproba na treningu (1000din)
+
+
 
