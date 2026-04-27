@@ -8,3 +8,5 @@ categories:
 ---
 Svake subote provedemo sat vremena na obali Dunava u Futogu kako bi pokupili smece i omogucili lepsi boravak u prirodi.
 
+Ukoliko je obala cista, znaci da ima vise ljudi koji ciste nego onih koji zagadjuju prirodu
+
