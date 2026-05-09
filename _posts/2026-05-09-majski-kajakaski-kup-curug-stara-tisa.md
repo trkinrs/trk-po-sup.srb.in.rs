@@ -6,7 +6,7 @@ summary: prelepo brzo takmicenje
 categories:
 - izvestaj
 ---
-Imao sam malo vremena da se prijavim i dodjem na trku (supruga radi do 13, a trka je u pola 3), ali je bilo prelepo. Trka na 200m (vise bih voleo da je na 1000m ili duze).
+Imao sam malo vremena da se prijavim i dodjem na trku (supruga radi do 13, a trka je u pola 3), ali je bilo prelepo. Trka na 200m (vise bih voleo da je na 1000m ili duze). Stigao sam 10 minuta pred trku i uzeo broj staze u kojoj sam rasporedjen i stigao da se zagrejem. Znao sam da kad je vetar u ledja onda imam veliku prednost posto sam mrsav.
 
 Prvo mesto Dusan Orlovic, drugo mesto Milan Ciric, i trece mesto Marko Borisev.
 
@@ -15,7 +15,6 @@ Teren za veslanje je izuzetan, organizacija trka kao svajcarski sat, obala prist
 <video controls="" src="{{ site.baseurl }}/assets/videos/majski kup finish.mp4"></video>
 
 <video controls="" src="{{ site.baseurl }}/assets/videos/majski kup finish.mp4"></video>
-
 
 Hvala Kajak kanu klubu Liman sto me je omogucio da veslam pod njihovim imenom, posto jos uvek nismo registrovali klub.
 
