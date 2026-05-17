@@ -21,15 +21,31 @@ Ovde možete naći oglase vezane za kupoprodaju veslačke opreme.
 <div class="posts">
 {% for ad in active_ads %}
   <div class="post">
-    <a href="{{ ad.url | relative_url }}" class="post-link">
-      <h3 class="post-title">{{ ad.title }}</h3>
-    </a>
-    <p class="post-summary">
-      {% if ad.price %}<strong>{{ ad.price }}</strong> &mdash; {% endif %}
-      {% if ad.location %}📍 {{ ad.location }} &mdash; {% endif %}
-      {{ ad.summary }}
-    </p>
-    <a href="{{ ad.url | relative_url }}">Pogledaj oglas &rarr;</a>
+    <div class="post-list-item">
+      {% if ad.image %}
+        {% assign ad_thumb_src = ad.image %}
+        {% unless ad_thumb_src contains '://' %}
+          {% assign ad_thumb_src = ad_thumb_src | relative_url %}
+        {% endunless %}
+        <div class="post-list-aside">
+          <a href="{{ ad.url | relative_url }}" class="post-thumb-link" aria-label="{{ ad.title | escape }}">
+            <img class="post-thumb" src="{{ ad_thumb_src }}" alt="" loading="lazy">
+          </a>
+        </div>
+      {% endif %}
+
+      <div class="post-list-body">
+        <a href="{{ ad.url | relative_url }}" class="post-link">
+          <h3 class="post-title">{{ ad.title }}</h3>
+        </a>
+        <p class="post-summary">
+          {% if ad.price %}<strong>{{ ad.price }}</strong> &mdash; {% endif %}
+          {% if ad.location %}📍 {{ ad.location }} &mdash; {% endif %}
+          {{ ad.summary }}
+        </p>
+        <a href="{{ ad.url | relative_url }}">Pogledaj oglas &rarr;</a>
+      </div>
+    </div>
   </div>
 {% endfor %}
 </div>
@@ -41,8 +57,24 @@ Ovde možete naći oglase vezane za kupoprodaju veslačke opreme.
 <div class="posts">
 {% for ad in sold_ads %}
   <div class="post" style="opacity:0.55;">
-    <h3 class="post-title" style="text-decoration:line-through;">{{ ad.title }}</h3>
-    <p class="post-summary post-meta">PRODATO &mdash; {{ ad.summary }}</p>
+    <div class="post-list-item">
+      {% if ad.image %}
+        {% assign ad_thumb_src = ad.image %}
+        {% unless ad_thumb_src contains '://' %}
+          {% assign ad_thumb_src = ad_thumb_src | relative_url %}
+        {% endunless %}
+        <div class="post-list-aside">
+          <a href="{{ ad.url | relative_url }}" class="post-thumb-link" aria-label="{{ ad.title | escape }}">
+            <img class="post-thumb" src="{{ ad_thumb_src }}" alt="" loading="lazy">
+          </a>
+        </div>
+      {% endif %}
+
+      <div class="post-list-body">
+        <h3 class="post-title" style="text-decoration:line-through;">{{ ad.title }}</h3>
+        <p class="post-summary post-meta">PRODATO &mdash; {{ ad.summary }}</p>
+      </div>
+    </div>
   </div>
 {% endfor %}
 </div>
