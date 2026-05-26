@@ -20,6 +20,12 @@ _schema:
   - slug:
     title:
 ads:
-  kind: Kupujem Prodajem Izdajem
-  type: Sup na naduvavanje (iSUP) Sup od karbona, plastike ili drveta (hard sup) Veslo
-    Oprema
+  kind:
+  - Kupujem 
+  - Prodajem
+  - Izdajem
+  type:
+  - Sup na naduvavanje (iSUP)
+  - Sup od karbona, plastike ili drveta (hard sup)
+  - Veslo
+  - Oprema
