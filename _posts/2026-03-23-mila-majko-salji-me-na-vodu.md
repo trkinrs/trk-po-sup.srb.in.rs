@@ -11,7 +11,7 @@ Kada vozim decu u vrtic, dozvolim sebi da ponesem dasku na auto i napravim treni
 
 Ne treba cekati da se stvore posebni uslovi, niti da se naprave klubovi koji ce vas ugostiti, vec treba odmah izaci napolje, naci najzanimljiviji izlaz na vodu i polako pozivati sve ostale da se prikljuce.
 
-Uz mere  [bezbednosti]({{ site.baseurl }}//bezbednosna-oprema/) svi mogu da uzivaju.
+Uz mere  [bezbednosti]({{ site.baseurl }}/bezbednosna-oprema/) svi mogu da uzivaju.
 
 <video controls="" src="{{ site.baseurl }}/assets/videos/mila majko salji me na vodu sa tekstom - SD 480p.mov"></video>
 

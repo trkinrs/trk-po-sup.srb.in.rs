@@ -8,7 +8,7 @@ Ponedeljak: zagrevanje kick box, sa rukavicama u parovima: minut direkti, minut 
 
 Utorak: Bazen ili trening u parovima: sklekovi sa tapsanjem. trbusnjaci sa spojenim nogama i tapsanjem, privlak, kolica
 
-Sreda:  [Trening na karikama]({{ site.baseurl }}//2026/04/19/trening-na-karikama/)
+Sreda:  [Trening na karikama]({{ site.baseurl }}/2026/04/19/trening-na-karikama/)
 
 Cetvrtak: Bazen ili trcanje 2km pa izdrzaj: plank 1min, ledja 1min, cucanj 1min, ramena 1min sa pauzama do potpunog odmora
 
@@ -16,7 +16,7 @@ Petak: Kick box zagrevanje, pipkanje 3minuta, kombinacije, vezbe snage: privlace
 
 Subota: Dugačko trčanje (bar 1h)
 
-Nedelja:  [Ciscenje obale od smeca]({{ site.baseurl }}//2026/04/25/ciscenje-obale-od-smeca/) Skupljanje djubreta i vezbe na konopcu
+Nedelja:  [Ciscenje obale od smeca]({{ site.baseurl }}/2026/04/25/ciscenje-obale-od-smeca/) Skupljanje djubreta i vezbe na konopcu
 
 Pogledajte ostale [trening postove](https://trk-po-sup.srb.in.rs/categories/trening/)
 
