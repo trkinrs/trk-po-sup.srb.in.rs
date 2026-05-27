@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Tehnika gde radi celo telo
-image:
+image: assets/images/Screenshot 2026-05-27 at 15.05.12.png
 summary: Kada se krene iz nogu, onda celo telo mora biti aktivirano
 categories:
 - trening
 ---
-<video controls="" src="{{ site.baseurl }}/assets/videos/tehnika.mov"></video>
+[{ site.baseurl }}/assets/videos/tehnika.mp4]({ site.baseurl }}/assets/videos/tehnika.mp4)
 
-<video controls="" src="{{ site.baseurl }}/assets/videos/tehnika2.mp4"></video>
+<video controls="" src="{{ site.baseurl }}/assets/videos/tehnika.mp4"></video>
+
 
