@@ -3,7 +3,8 @@ layout: default
 ---
 {% assign posts_count = paginator.posts | size %}
 
-<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2542959412831243%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+<video controls="" src="{{ site.baseurl }}/assets/videos/promo sup.mp4"></video>
+
 <div class="home">
   {% if posts_count > 0 %}
     <div class="posts">
@@ -20,52 +21,57 @@ layout: default
                   <img class="post-thumb" src="{{ post_thumb_src }}" alt="" loading="lazy">
                 </a>
 
-                {% if post.categories and post.categories.size > 0 %}
-                  <div class="post-categories" aria-label="Categories">
-                    {% for category in post.categories %}
-                      {% assign category_slug = category | slugify %}
-                      <a class="post-category-link" href="{{ '/categories/' | append: category_slug | append: '/' | relative_url }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
-                    {% endfor %}
-                  </div>
-                {% endif %}
+```
+            {% if post.categories and post.categories.size > 0 %}
+              <div class="post-categories" aria-label="Categories">
+                {% for category in post.categories %}
+                  {% assign category_slug = category | slugify %}
+                  <a class="post-category-link" href="{{ '/categories/' | append: category_slug | append: '/' | relative_url }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
               </div>
             {% endif %}
-
-            <div class="post-list-body">
-              {% unless post.image %}
-                {% if post.categories and post.categories.size > 0 %}
-                  <div class="post-categories post-categories--no-image" aria-label="Categories">
-                    {% for category in post.categories %}
-                      {% assign category_slug = category | slugify %}
-                      <a class="post-category-link" href="{{ '/categories/' | append: category_slug | append: '/' | relative_url }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
-                    {% endfor %}
-                  </div>
-                {% endif %}
-              {% endunless %}
-
-              <p class="post-meta">
-		    {% if site.date_format %}
-		      {{ post.date | date: site.date_format }}
-		    {% else %}
-		      {{ post.date | date: "%b %-d, %Y" }}
-		    {% endif %}
-		  </p>
-              <a href="{{ post.url | relative_url }}" class="post-link"><h3 class="h2 post-title">{{ post.title }}</h3></a>
-              <span class="post-summary">
-                {% if post.summary %}
-                  {{ post.summary }}
-                {% else %}
-                  {{ post.excerpt }}
-                {% endif %}
-              </span>
-            </div>
           </div>
-        </div>
-      {% endfor %}
-    </div>
+        {% endif %}
 
-    {% include pagination.html %}
-  {% else %}
-    <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
-  {% endif %}
+        <div class="post-list-body">
+          {% unless post.image %}
+            {% if post.categories and post.categories.size > 0 %}
+              <div class="post-categories post-categories--no-image" aria-label="Categories">
+                {% for category in post.categories %}
+                  {% assign category_slug = category | slugify %}
+                  <a class="post-category-link" href="{{ '/categories/' | append: category_slug | append: '/' | relative_url }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          {% endunless %}
+
+          <p class="post-meta">
+	    {% if site.date_format %}
+	      {{ post.date | date: site.date_format }}
+	    {% else %}
+	      {{ post.date | date: "%b %-d, %Y" }}
+	    {% endif %}
+	  </p>
+          <a href="{{ post.url | relative_url }}" class="post-link"><h3 class="h2 post-title">{{ post.title }}</h3></a>
+          <span class="post-summary">
+            {% if post.summary %}
+              {{ post.summary }}
+            {% else %}
+              {{ post.excerpt }}
+            {% endif %}
+          </span>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
 </div>
+
+{% include pagination.html %}
+```
+
+{% else %}
+<h1 class='center'>{{ site.text.index.coming_soon }}</h1>
+{% endif %}
+
+</div>
+
