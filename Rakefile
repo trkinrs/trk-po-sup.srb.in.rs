@@ -33,6 +33,7 @@ desc "Commit source code to main"
 task :commit_source do
   sh "git add ."
   sh %(git commit -m "Update source site content" || echo 'Nothing to commit on main')
+  sh "git pull --rebase origin main"
   sh "git push origin main"
 end
 

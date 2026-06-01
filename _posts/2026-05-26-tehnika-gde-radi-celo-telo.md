@@ -6,7 +6,7 @@ summary: Kada se krene iz nogu, onda celo telo mora biti aktivirano
 categories:
 - trening
 ---
-[{ site.baseurl }}/assets/videos/tehnika.mp4]({ site.baseurl }}/assets/videos/tehnika.mp4)
+[{{ site.baseurl }}/assets/videos/tehnika.mp4]({ site.baseurl }}/assets/videos/tehnika.mp4)
 
 <video controls="" src="{{ site.baseurl }}/assets/videos/tehnika.mp4"></video>
 
