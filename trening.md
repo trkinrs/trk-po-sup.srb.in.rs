@@ -24,7 +24,7 @@ Trening na vodi:
 
 Ponedeljak: DUGI INTERVALI: zagrevanje 3-5km, 300zaveslaja jako, odmor do 10minuta x 5 (tj 50minuta tj 5km)
 
-Sreda: SREDNJI INTERVALI: zagrevanje 3-5km, 100zaveslaja brzo, odmor do 2.5minuta x 14 (tj 45minuta tj 5km)
+Sreda: SREDNJI INTERVALI: simulacija hiljadu metara, zagrevanje 3-5km, 100zaveslaja brzo, odmor do 2.5minuta x 4 ... Sa rastom forme povecavati broj zaveslaja i smanjivati odmor
 
 Petak: KRATKI INTERVLI: Zagrevanje 3-5km, 50zaveslaja sprint, odmor do 1.5minuta x 20 (tj 30minuta)
 
