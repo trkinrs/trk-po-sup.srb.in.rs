@@ -18,9 +18,9 @@ images:
 ---
 Izdajem dasku (torba, pumpa, peraje), 1.000din / 2 sata.
 
-Isporuka se posebno naplacuje.
+Isporuka se posebno naplaćuje.
 
 Besplatna proba.
 
-
+[Obrazac ugovora za izdavanje SUP daske]({{ site.baseurl }}/ugovor-o-izdavanju-sup-daske/)
 

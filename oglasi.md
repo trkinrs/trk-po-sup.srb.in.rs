@@ -6,6 +6,8 @@ permalink: /oglasi/
 
 Ovde možete naći oglase vezane za kupoprodaju veslačke opreme.
 
+Za izdavanje opreme može se koristiti [obrazac ugovora za izdavanje SUP daske]({{ site.baseurl }}/ugovor-o-izdavanju-sup-daske/).
+
 {% assign active_ads = site.ads | where: "sold", false %}
 {% assign sold_ads = site.ads | where: "sold", true %}
 

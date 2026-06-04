@@ -53,8 +53,24 @@ _schema:
       {% assign ad_image_src = ad_image_src | relative_url %}
     {% endunless %}
     <figure class="post-hero">
-      <img src="{{ ad_image_src }}" alt="{{ page.title | escape }}" loading="lazy">
+      <a href="{{ ad_image_src }}" class="glightbox" data-gallery="ad-images" data-title="{{ page.title | escape }}">
+        <img src="{{ ad_image_src }}" alt="{{ page.title | escape }}" loading="lazy">
+      </a>
     </figure>
+  {% endif %}
+
+  {% if page.images and page.images.size > 0 %}
+    <div class="ad-gallery" aria-label="Slike oglasa">
+      {% for ad_image in page.images %}
+        {% assign ad_gallery_src = ad_image %}
+        {% unless ad_gallery_src contains '://' %}
+          {% assign ad_gallery_src = ad_gallery_src | relative_url %}
+        {% endunless %}
+        <a href="{{ ad_gallery_src }}" class="ad-gallery-thumb glightbox" data-gallery="ad-images" data-title="{{ page.title | escape }} - slika {{ forloop.index }}">
+          <img src="{{ ad_gallery_src }}" alt="{{ page.title | escape }} - slika {{ forloop.index }}" loading="lazy">
+        </a>
+      {% endfor %}
+    </div>
   {% endif %}
 
   <div class="post-content">
@@ -92,3 +108,25 @@ _schema:
     &larr; <a href="{{ '/oglasi/' | relative_url }}">Nazad na sve oglase</a>
   </p>
 </div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (window.GLightbox) {
+      var adLightbox = GLightbox({
+        selector: '.glightbox',
+        closeOnOutsideClick: true,
+        keyboardNavigation: true,
+        touchNavigation: true,
+        loop: true
+      });
+
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+          adLightbox.close();
+        }
+      });
+    }
+  });
+</script>
