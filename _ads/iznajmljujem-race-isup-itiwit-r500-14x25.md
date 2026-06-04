@@ -14,11 +14,12 @@ summary: 'sprint isup
   '
 images:
 - assets/images/Screenshot 2026-06-04 at 15.10.43.png
-- ''
+- assets/images/Screenshot 2026-06-04 at 15.10.32.png
 ---
 Izdajem dasku (torba, pumpa, peraje), 1.000din / 2 sata.
 
 Isporuka se posebno naplacuje.
 
 Besplatna proba.
+
 
