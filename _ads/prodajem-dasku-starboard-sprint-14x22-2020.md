@@ -20,12 +20,14 @@ images:
 - assets/images/sprint starboard 14x22 2020 fin.jpg
 - assets/images/sprint starboard 14x22 2020 number.jpg
 - assets/images/sprint starboard 14x22 2020 with bag.jpg
+kind: Kupujem
+type: Sup na naduvavanje (iSUP)
 ---
 Prodajem Starboard dasku sa futrolom.
 
 Vrlo stabilna daska, veoma ocuvana, prostor za stajanje kao nov.
 
-Moze da se isproba na treningu (1000din)
+Moze da se iznajmi na par sati (1000din). Dostava se posebno naplacuje.
 
-
+Besplatna proba ako se sretnemo na obali.
 
