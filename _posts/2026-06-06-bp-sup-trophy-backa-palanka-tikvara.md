@@ -14,12 +14,13 @@ Počelo je malo komplikovano zbog prijava za stotke koje su se održavale na dru
 
 <video controls="" src="{{ site.baseurl }}/assets/videos/briefing.mp4"></video>
 
-
 ![FB_IMG_1780773874692]({{ site.baseurl }}/assets/images/FB_IMG_1780773874692.jpg)
 
 Slika preuzeta sa Sup NS Facebook [posta](https://www.facebook.com/share/p/1APdyomHSc/)
 
 Kreće se sa obale , prva bova levo, druga desno itd, izlazi se na obali pa još jedan krug.
+
+Lepo sam startovao, dovoljno ispred da nemam problema na okretima oko bova, i onda sam lagano do cilja. Konkurencija je imala i trku na iSUP pa je zato bila umorna, ali sta da im radim...
 
 <video controls="" src="{{ site.baseurl }}/assets/videos/tehnicka bp sup trophy.mp4"></video>
 
