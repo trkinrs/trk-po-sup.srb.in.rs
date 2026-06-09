@@ -2,7 +2,7 @@
 layout: page
 title: Trening
 ---
-Trening je u Ive Andrica 65, Futog svaki radni dan od 17 do 18h (bazen je uto i cet u Futogu od 16h do 18h)
+Posle svakog treninga si sve bolji.
 
 Ponedeljak: zagrevanje kick box, sa rukavicama u parovima: minut direkti, minut odmor, minut krose, minut uperkat. 5 serija na Dzaku (direkt, krose, uperkut, levi kick, desni kick) sa pauzama vezbe snage (sklekovi, ledja, trbusnjaci, zgibovi, cucnjevi)
 
