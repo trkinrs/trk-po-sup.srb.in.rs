@@ -15,17 +15,13 @@ posts:
   title: Izvestaj
 - slug: ciscenje-obale
   title: Ciscenje obale
+- slug: izdavanje-sup-daske-kajaka
+  title: Izdavanje sup daske kajaka
 _schema:
   posts:
   - slug:
     title:
 ads:
-  kind:
-  - Kupujem 
-  - Prodajem
-  - Izdajem
-  type:
-  - Sup na naduvavanje (iSUP)
-  - Sup od karbona, plastike ili drveta (hard sup)
-  - Veslo
-  - Oprema
+  kind: Kupujem Prodajem Izdajem
+  type: Sup na naduvavanje (iSUP) Sup od karbona, plastike ili drveta (hard sup) Veslo
+    Oprema
