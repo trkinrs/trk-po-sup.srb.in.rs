@@ -18,6 +18,8 @@ Počelo je malo komplikovano zbog prijava za stotke koje su se održavale na dru
 
 <video controls="" src="{{ site.baseurl }}/assets/videos/briefing.mp4"></video>
 
+<video controls="" src="{{ site.baseurl }}/assets/videos/briefing.mp4"></video>
+
 ![FB_IMG_1780773874692]({{ site.baseurl }}/assets/images/FB_IMG_1780773874692.jpg)
 
 Slika preuzeta sa Sup NS Facebook [posta](https://www.facebook.com/share/p/1APdyomHSc/)
@@ -28,8 +30,12 @@ Lepo sam startovao, dovoljno ispred da nemam problema na okretima oko bova, i on
 
 ![DSC_0476]({{ site.baseurl }}/assets/images/DSC_0476.JPG)
 
-![DSC_0487]({{ site.baseurl }}/assets/images/DSC_0487.JPG)
+![skok u vodu na tehnickoj]({{ site.baseurl }}/assets/images/skok u vodu na tehnickoj.jpg)
 
+![trk ka cilju u tehnickoj]({{ site.baseurl }}/assets/images/trk ka cilju u tehnickoj.jpg)
+
+
+<video controls="" src="{{ site.baseurl }}/assets/videos/tehnicka bp sup trophy.mp4"></video>
 
 <video controls="" src="{{ site.baseurl }}/assets/videos/tehnicka bp sup trophy.mp4"></video>
 
@@ -43,19 +49,19 @@ Drugi dan je bila dugacka trka na 10km, i izgleda da mi to lepo lezi, posto sam 
 
 ![DSC_0953]({{ site.baseurl }}/assets/images/DSC_0953.JPG)
 
-
 ![DSC_0965]({{ site.baseurl }}/assets/images/DSC_0965.JPG)
 
 ![SNY02982]({{ site.baseurl }}/assets/images/SNY02982.jpg)
 
-
 <video controls="" src="{{ site.baseurl }}/assets/images/DSC_0898.MOV"></video>
 
+<video controls="" src="{{ site.baseurl }}/assets/images/DSC_0898.MOV"></video>
 
 I na kraju je bila decija trka, gde je Filip Orlovic takodje zauzeo prvo mesto u svojo U10 kategoriji
 
 ![DSC_0273]({{ site.baseurl }}/assets/images/DSC_0273.JPG)
 
+<video controls="" src="{{ site.baseurl }}/assets/images/filip okret oko bove.mp4"></video>
 
 <video controls="" src="{{ site.baseurl }}/assets/images/filip okret oko bove.mp4"></video>
 

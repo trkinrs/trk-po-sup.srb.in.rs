@@ -6,7 +6,9 @@ summary: nama najblize more
 categories:
 - izdavanje-sup-daske-kajaka
 ---
-Tinejdzeri su se zainteresovali za boravak na vodi
+Tinejdzeri su se zainteresovali za boravak na vodi.
+
+Ali nista bez muzike
 
 <video controls="" src="{{ site.baseurl }}/assets/videos/snimak sirokog dugava.mp4"></video>
 
