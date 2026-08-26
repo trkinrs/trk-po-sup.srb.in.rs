@@ -6,10 +6,12 @@ summary: ''
 categories:
 - trening
 ---
-Čuvanje dece je zabavno a može biti i veoma korisno za vaš trening 
+Čuvanje dece je zabavno a može biti i veoma korisno za vaš trening
 
-Evo nekih primera Kako možete čuvati decu dok pečete palačinke 
+Evo nekih primera Kako možete čuvati decu dok pečete palačinke
 
-![IMG-ba777d1ad3e61321da533a77faa2e56a-V]({{ site.baseurl }}/assets/images/IMG-ba777d1ad3e61321da533a77faa2e56a-V.jpg)
 
+I na kraju opustanje na Dunavu (moze lepo i da se odrema u kajaku)
+
+![voznja dunavom]({{ site.baseurl }}/assets/images/voznja dunavom.jpg)
 
