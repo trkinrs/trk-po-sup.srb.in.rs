@@ -1,0 +1,22 @@
+{
+  "short_name": "Trk po SUP",
+  "name": "Trk po SUP",
+  "description": "Rekreacija, Takmicenje, u stvari, samo boravak na vodi iz bilo kog razloga. SUP izgleda kao najbolja opcija: u slucaju prevrtanja moze se lako vratiti, moze da se vesla po talasima mora, celo telo pocrni :)",
+  "icons": [
+    {
+      "src": "/splash-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/favicon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ffffff"
+}
